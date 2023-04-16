@@ -1,0 +1,30 @@
+.service-detail-container {
+  .service-detail-blk {
+    width: 80%;
+    height: auto;
+    border: 1px solid gray;
+    margin: 0 auto;
+    .img-container {
+      width: 150px;
+      height: 150px;
+      background-color: aqua;
+      border-radius: 10px;
+      box-shadow: 0 0.25rem 0.3125rem -0.15rem rgba(0, 0, 0, 0.12);
+      background-color: hsla(0, 0%, 91.8%, 0.56);
+      img {
+        width: 100%;
+      }
+    }
+    .details-content {
+      width: 90%;
+      .duration {
+        height: 50px;
+      }
+    }
+  }
+  .book-form-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

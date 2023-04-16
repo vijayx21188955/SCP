@@ -1,0 +1,12 @@
+section#login {
+  height: 100vh;
+  width: 100vw;
+  .login-container {
+    z-index: 1;
+    width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+  }
+}
